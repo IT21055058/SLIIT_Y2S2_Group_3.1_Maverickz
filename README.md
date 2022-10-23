@@ -1,5 +1,5 @@
 # SLIIT_Y2S2_Group_3.1_Maverickz
-The “Hope “ Blood Donation Management System for SLIIT Y2S2 MAD project
+## The “Hope “ Blood Donation Management System for SLIIT Y2S2 MAD project
 
 ### Group Members: 
 ### Group Leader - IT21055058 - Kumara L.L.M.N. (IT21055058)
