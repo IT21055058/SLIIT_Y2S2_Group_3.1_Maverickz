@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="684dp"
+
+        android:ems="10"
+        android:gravity="center"
+        android:text="Create Your Event"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="132dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+
+        android:ems="10"
+        android:text="Event Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="148dp"
+        android:ems="10"
+        android:text="Event date"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    <com.google.android.material.textfield.TextInputEditText-->
+<!--        android:id="@+id/location_city"-->
+<!--        android:layout_width="212dp"-->
+<!--        android:layout_height="54dp"-->
+<!--        android:layout_marginStart="176dp"-->
+<!--        android:hint="City name"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/location_street" />-->
+
+<!--    <com.google.android.material.textfield.TextInputEditText-->
+<!--        android:id="@+id/location_disc"-->
+<!--        android:layout_width="152dp"-->
+<!--        android:layout_height="58dp"-->
+<!--        android:layout_marginStart="172dp"-->
+<!--        android:hint="District"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/location_city" />-->
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/event_date"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="148dp"
+        android:hint="Create event date input"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="148dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="228dp"
+        android:ems="10"
+        android:text="Location"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/location_street"
+        android:layout_width="174dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="228dp"
+        android:hint="Create event location"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="113dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="336dp"
+        android:ems="10"
+        android:text="Start Time"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    <TextView-->
+<!--        android:id="@+id/editTextTextPersonName9"-->
+<!--        android:layout_width="97dp"-->
+<!--        android:layout_height="52dp"-->
+<!--        android:layout_marginStart="208dp"-->
+<!--        android:layout_marginTop="412dp"-->
+<!--        android:ems="10"-->
+<!--        android:text="End Time"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <com.google.android.material.textfield.TextInputEditText-->
+<!--        android:id="@+id/end_time"-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginStart="1dp"-->
+<!--        android:layout_marginTop="412dp"-->
+<!--        android:hint="6.00PM"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName9"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/start_time"
+        android:layout_width="177dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="336dp"
+        android:hint="00:00 AM/PM"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName8"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="177dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="436dp"
+        android:ems="10"
+        android:text="Event description"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/event_description"
+        android:layout_width="202dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="252dp"
+        android:hint="Event Description"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName10" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="154dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="156dp"
+        android:ems="10"
+        android:text="Contact info"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/cont_info"
+        android:layout_width="123dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="168dp"
+        android:hint="Contact Info"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName11" />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginBottom="40dp"
+        android:text="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/create_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="40dp"
+        android:text="create"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/event_name"
+        android:layout_width="237dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="84dp"
+        android:hint="Create event name input"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
